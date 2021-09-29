@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.cardview.widget.CardView
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:fontFamily="monospace"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:id="@+id/medicineName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Medicine Name" />
+
+            <TextView
+                android:fontFamily="monospace"
+                android:textColor="@color/black"
+                android:textSize="22dp"
+                android:id="@+id/medicineDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Medicine Description" />
+
+            <TextView
+                android:fontFamily="monospace"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:id="@+id/medicineTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Medicine Time"/>
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
